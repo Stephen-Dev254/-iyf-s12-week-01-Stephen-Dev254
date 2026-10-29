@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1: Five Tags Challenge</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; line-height: 1.6; max-width: 600px; margin: 3rem auto; padding: 0 1rem; color: #333; }
+        code { background: #e5e7eb; padding: 2px 4px; border-radius: 4px; font-family: monospace; }
+        blockquote { background: #f3f4f6; border-left: 4px solid #2563eb; margin: 1.5rem 0; padding: 1rem; }
+    </style>
+</head>
+<body>
+
+    <h1>Day 1: Five Tags Challenge</h1>
+    <p>Demonstrating five descriptive HTML elements that improve document precision:</p>
+    
+    <p>1. The <code>&lt;abbr&gt;</code> element defines abbreviations: <abbr title="HyperText Markup Language">HTML</abbr> is the skeleton of the web.</p>
+    
+    <p>2. The <code>&lt;mark&gt;</code> element is used to <mark>highlight important keywords</mark> within text contexts.</p>
+    
+    <p>3. The <code>&lt;time&gt;</code> element assigns data stamps: Our layout checkpoint occurs on <time datetime="2026-10-29">October 29, 2026</time>.</p>
+    
+    <p>4. The <code>&lt;blockquote&gt;</code> and <code>&lt;cite&gt;</code> tags declare formal inline references:</p>
+    <blockquote cite="https://mozilla.org">
+        "Semantic HTML elements clearly describe their meaning in a human- and machine-readable way."
+        — <cite>MDN Web Docs</cite>
+    </blockquote>
+
+    <p>5. The <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> tags create expandable content native widgets:</p>
+    <details>
+        <summary>Click to view hidden challenge metadata summary</summary>
+        <p style="padding-top: 0.5rem; color: #2563eb;">All layout baseline items passed structural assessment checkpoints successfully!</p>
+    </details>
+
+</body>
+</html>

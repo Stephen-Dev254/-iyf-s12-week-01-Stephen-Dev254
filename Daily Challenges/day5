@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5: Blog Post Layout</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #1f2937; max-width: 800px; margin: 0 auto; padding: 2rem 1rem; background-color: #f9fafb; }
+        article { background-color: #ffffff; padding: 2.5rem; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .post-title { font-size: 2.5rem; color: #111827; line-height: 1.2; margin-bottom: 0.5rem; }
+        .metadata { color: #6b7280; font-size: 0.95rem; margin-bottom: 1.5rem; border-bottom: 1px solid #e5e7eb; padding-bottom: 1rem; }
+        .featured-image { width: 100%; height: 400px; object-fit: cover; border-radius: 6px; margin-bottom: 2rem; }
+        h2 { font-size: 1.75rem; color: #111827; margin-top: 2rem; margin-bottom: 1rem; }
+        p { margin-bottom: 1.25rem; font-size: 1.1rem; color: #374151; }
+        .related-posts { margin-top: 3.5rem; border-top: 2px solid #e5e7eb; padding-top: 2rem; }
+        .related-posts h3 { font-size: 1.5rem; color: #111827; margin-bottom: 1rem; }
+        .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; list-style: none; padding: 0; }
+        .related-item { background: #f3f4f6; padding: 1.25rem; border-radius: 6px; border: 1px solid #e5e7eb; }
+        .related-item a { text-decoration: none; color: #2563eb; font-weight: 600; display: block; margin-bottom: 0.5rem; }
+        .related-item a:hover { text-decoration: underline; }
+        .related-item span { color: #6b7280; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+
+    <!-- Main Blog Article Post -->
+    <article>
+        <h1 class="post-title">Mastering Semantic Layouts in Modern Web Systems</h1>
+        
+        <!-- Article Metadata Section -->
+        <div class="metadata">
+            Published on <time datetime="2026-10-29">October 29, 2026</time> &bull; Written by <strong>Stephen Githaiga Muriu</strong>
+        </div>
+
+        <!-- Featured Image Component -->
+        <img class="featured-image" src="https://unsplash.com" alt="Clean minimalist workstation with a laptop opening text script layouts">
+
+        <!-- Subheading 1 & Content Paragraphs -->
+        <h2>Why Machine Readability Matters</h2>
+        <p>Building standard web layout components extends far beyond basic visual representations. When we implement definitive boundary structures such as semantic article markers or navigation modules instead of default container boxes, we are actively feeding architectural contexts straight to search platforms and structural browser parsers.</p>
+        
+        <p>This descriptive data layer explicitly maps out structural nodes inside the document object matrix. This means accessibility frameworks can confidently track interface logic layouts, providing clean, structural transitions for assistive device monitors without reliance on manual styling sheets.</p>
+
+        <!-- Subheading 2 & Content Paragraphs -->
+        <h2>Optimizing Component Performance</h2>
+        <p>Adhering strictly to sequentially descending header hierarchies forms an optimal layout baseline. Clean transitions from major titles downwards into specialized item descriptions establish structural weight balances across the content space, keeping document outlines simple and clear.</p>
+        
+        <p>By dropping vague tracking pointers and anchoring custom textual content descriptions directly into navigation wrappers, development pipelines significantly reduce diagnostic bottlenecks when running modern programmatic tools like Lighthouse or alternative automated site testing validators.</p>
+
+        <!-- Related Posts Structural Module -->
+        <section class="related-posts">
+            <h3>Related Content Outlines</h3>
+            <ul class="related-grid">
+                <li class="related-item">
+                    <a href="day4-gallery.html">Exploring Image Grid Galleries</a>
+                    <span>Day 4 Challenge &bull; Design Foundations</span>
+                </li>
+                <li class="related-item">
+                    <a href="day2-nav.html">Building Accessible Flexbox Navbars</a>
+                    <span>Day 2 Challenge &bull; Layout Blueprints</span>
+                </li>
+            </ul>
+        </section>
+    </article>
+
+</body>
+</html>

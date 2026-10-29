@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2: Navigation Menu Challenge</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; margin: 0; background: #f9fafb; }
+        header { background: #ffffff; border-bottom: 1px solid #e5e7eb; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; max-width: 1000px; margin: 0 auto; padding: 1rem 2rem; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: #2563eb; }
+        nav ul { display: flex; list-style: none; gap: 2rem; margin: 0; padding: 0; }
+        nav a { text-decoration: none; color: #4b5563; font-weight: 500; transition: color 0.2s; }
+        nav a:hover { color: #2563eb; }
+        main { max-width: 1000px; margin: 4rem auto; padding: 0 2rem; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">DevWorkspace</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Day 2 Navigation System</h1>
+        <p>A semantic header layout containing a left-aligned site name and right-aligned link arrays.</p>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3: Contact Section Challenge</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; line-height: 1.6; max-width: 500px; margin: 4rem auto; padding: 0 1rem; }
+        .contact-box { background: white; padding: 2rem; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
+        address { font-style: normal; margin-bottom: 1.5rem; background: #f9fafb; padding: 1rem; border-radius: 6px; border-left: 3px solid #2563eb; }
+        a { color: #2563eb; text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <div class="contact-box">
+        <h2>Day 3: Contact Section</h2>
+        <p>Reach out through the validated contact details below:</p>
+        
+        <address>
+            <strong>Mailing Location:</strong><br>
+            Mwiki Area, Kasarani Sub-County,<br>
+            Nairobi, Kenya
+        </address>
+
+        <p><strong>Email:</strong> <a href="mailto:stephengithaigamuriu@gmail.com">stephengithaigamuriu@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+254700000000">+254 700 000 000</a></p>
+        <p><strong>Social Networks:</strong> <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub Profile</a></p>
+    </div>
+
+</body>
+</html>
