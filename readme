@@ -1,0 +1,36 @@
+# Week 1: Multi-Page Portfolio & Semantic Challenges
+
+## Author
+- **Name:** Stephen Githaiga Muriu
+- **GitHub:** [@Stephen-Dev254](https://github.com)
+- **Date:** October 29, 2026
+
+## Project Description
+A multi-page responsive portfolio website and structured daily code challenge repository built to practice engineering workflows. This project emphasizes writing compliant semantic HTML, structuring highly accessible layouts validated using Chrome DevTools audits, implementing modular styling sheets, and managing source changes through Git branching strategies.
+
+## Technologies Used
+- HTML5 (Semantic Structure)
+- CSS3 (Responsive Grid & Flexbox)
+- Markdown (Documentation Reporting)
+- Git & Git Bash (Version Control)
+
+## Features
+- **Semantic Multi-Page Architecture:** Fully structured static pages (`index`, `about`, `projects`, `contact`) sharing standardized, accessible navigation structures.
+- **Responsive Layout Grid:** A robust CSS styling sheet utilizing custom variable parameters and fluid layout breakpoints to adapt smoothly across mobile and desktop displays.
+- **Daily Code Engineering Modules:** 5 standalone challenge interfaces detailing explicit semantic implementations including data tags, figure grids, microformats, and structured media galleries.
+- **Automated Accessibility Compliance:** Validation-tested structures passing Lighthouse parameters with clear input-to-label bindings and explicitly assigned document parsing languages.
+
+## How to Run
+1. Clone this repository
+2. Open `index.html` in your browser
+
+## Lessons Learned
+- Learned how modern structural layout landmarks (`<header>`, `<nav>`, `<main>`, `<article>`, `<aside>`, `<footer>`) drastically improve document tree indexing for assistive screen readers compared to generic wrapper blocks.
+- Gained experience using automated validation testing environments to systematically diagnose contrast limits, asset string omissions, and form control deficiencies.
+- Developed an understanding of text parsing restrictions in shell terminal interfaces, learning how characters like the tilde symbol shift path expansions inside Unix command lines.
+
+## Challenges Faced
+- **Challenge:** Encountering terminal path translation errors (`No such file or directory`) when manipulating files due to an intricate local text editor configuration nested inside `.vscode-shared` workspace folder layers.
+- **Solution:** Successfully mapped out the exact layout hierarchy tree using localized string searches and isolated the directory parameters by targeting paths within explicit string quotes.
+- **Challenge:** Managing document indicator focus persistence dynamically across static portfolio layout layers without relying on an active script manager.
+- **Solution:** Manually assigned independent layout marker states (`class="current"` paired with semantic `aria-current="page"` elements) directly on each page layer components.
